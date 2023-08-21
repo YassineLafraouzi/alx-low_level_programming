@@ -15,7 +15,14 @@ int div(int a, int b) {
     if (b != 0) {
         return a / b;
     } else {
-        return 0; // Gestion de la division par zéro
+        return 0; // Gérer la division par zéro comme vous le souhaitez
     }
 }
 
+int mod(int a, int b) {
+    if (b != 0) {
+        return a % b;
+    } else {
+        return 0; // Gérer la division par zéro comme vous le souhaitez
+    }
+}
